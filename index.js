@@ -22,7 +22,7 @@ function deepestChild() {
   let node= document.getElementById('grand-node');
   let newnode = node.children[0];
 
-  while newnode{
+  while (newnode){
     node= newnode;
     newnode = node.children[0];
   }
